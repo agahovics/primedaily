@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 auto;
+    width: 612px;
+}
+  
+.container2 {
+    display: flex;
+    margin-top: 30px;
+    gap: 60px;
+}
+
+.logo {
+    display: flex;
+    border: 1px solid purple;
+    padding: 4px 4px;
+    border-radius: 8px;
+    box-shadow: 10px 5px 5px blueviolet;
+}
+
+.logo h2 {
+    color: blueviolet;
+    margin-top: 29.5px;
+    
+}
+  
+.circle {
+    content: "";
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: blueviolet;
+    filter: blur(100px);
+    border-radius: 50%;
+    right: -50px;
+}
+.circle-left {
+    content: "";
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: blueviolet;
+    filter: blur(100px);
+    border-radius: 50%;
+    left: -50px;
+}
